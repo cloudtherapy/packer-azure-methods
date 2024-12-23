@@ -1,3 +1,12 @@
+packer {
+  required_plugins {
+    azure = {
+      source  = "github.com/hashicorp/azure"
+      version = "~> 1"
+    }
+  }
+}
+
 source "azure-arm" "devops_agent" {
 
   image_offer                       = "0001-com-ubuntu-server-jammy"
