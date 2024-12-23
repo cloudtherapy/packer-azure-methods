@@ -8,7 +8,7 @@ source "azure-arm" "devops_agent" {
   managed_image_resource_group_name = "rg-shared-services"
   os_type                           = "Linux"
   subscription_id                   = "eef2d7b1-c33f-48ec-a949-5b87caad5c13"
-  tenant_id                         = "a0728e0e-8468-4c6a-bb7b-9f21a8d2cbbd"
+  use_interactive_auth              = true
   vm_size                           = "Standard_DS2_v2"
 }
 
