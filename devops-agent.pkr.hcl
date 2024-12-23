@@ -17,7 +17,7 @@ source "azure-arm" "devops_agent" {
   managed_image_resource_group_name = "rg-shared-services"
   os_type                           = "Linux"
   subscription_id                   = "eef2d7b1-c33f-48ec-a949-5b87caad5c13"
-  vm_size                           = "Standard_DS2_v2"
+  vm_size                           = "Standard_B2s"
 }
 
 build {
