@@ -61,7 +61,7 @@ build {
       gallery_name         = var.compute_gallery_name
       image_name           = var.image_name
       image_version        = formatdate("YYYY.MMDD.hhmmss", timeadd(timestamp(), "-5h"))
-      replication_regions  = ["East US"]
+      use_shallow_replication = true
       storage_account_type = "Standard_LRS"
     }
     azure_tags = {
