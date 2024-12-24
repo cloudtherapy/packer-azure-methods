@@ -42,6 +42,7 @@ source "azure-arm" "ubuntu" {
   virtual_network_resource_group_name = var.resource_group
   virtual_network_name                = var.vnet_name
   virtual_network_subnet_name         = var.subnet_name
+  private_virtual_network_with_public_ip = true
   managed_image_resource_group_name   = var.resource_group
   vm_size                             = "Standard_B2s"
   os_disk_size_gb                     = 30
