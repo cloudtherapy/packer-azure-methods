@@ -68,7 +68,6 @@ build {
       storage_account_type = "Standard_LRS"
     }
     azure_tags = {
-      "env:platform"      = var.label
       "image:create_date" = "{{ isotime \"2006-01-02 15:04:05\" }} UTC"
       "image:os"          = "Ubuntu LTS 22.04"
     }
