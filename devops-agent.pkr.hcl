@@ -54,7 +54,7 @@ build {
     temp_compute_name  = "${var.image_name}"
     image_publisher    = "Canonical"
     image_offer        = "0001-com-ubuntu-server-jammy"
-    image_sku          = "22_04-lts"
+    image_sku          = "22_04-lts-gen2"
     shared_image_gallery_destination {
       subscription         = var.subscription_id
       resource_group       = var.resource_group
