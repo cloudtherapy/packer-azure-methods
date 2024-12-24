@@ -56,7 +56,7 @@ build {
     managed_image_name = "${var.image_name}"
     temp_compute_name  = "${var.image_name}"
     image_publisher    = "Canonical"
-    image_offer        = "0001-com-ubuntu-server-jammyl"
+    image_offer        = "0001-com-ubuntu-server-jammy"
     image_sku          = "22_04-lts"
     shared_image_gallery_destination {
       subscription         = var.subscription_id
